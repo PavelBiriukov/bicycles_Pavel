@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+    background-color: var(--bg-color);
+}

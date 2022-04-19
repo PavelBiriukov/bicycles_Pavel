@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css" type="text/css">
+    <title>Bicycles</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <nav class="header__nav">
+                <a href="#track" class="header__title">Покрытия и градиенты</a>
+                <a href="#bicycles" class="header__title">Велосипеды</a>
+                <a href="#training" class="header__title">Тренировки</a>
+                <div class="header__burger"></div>
+                <div class="popup">
+                    <div class="popup__close"></div>
+                    <div class="popup__body">
+                        <a id="trackPopup" href="#track" class="popup__title">Покрытия и градиенты</a>
+                        <a id="bicyclesPopup" href="#bicycles" class="popup__title">Велосипеды</a>
+                        <a id="trainingPopup" href="#training" class="popup__title">Тренировки</a>
+                        <div class="footer__theme footer__theme_popup">
+                            <div class="footer__icon footer__icon_sun"></div>
+                            <div class="switch">
+                                <label class="switch__theme">
+                                  <input type="checkbox" class="switch__checkbox popup__checkbox"/>
+                                  <div class="switch__slider switch__round"></div>
+                                </label>
+                            </div>
+                            <div class="footer__icon footer__icon_moon"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <h1 class="intro__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+                <p class="intro__text">Триатлонные старты, горные серпантины 
+                    или грейвел заезды по&nbsp;живописным маршрутам&nbsp;&mdash; нужно только 
+                    определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.
+                </p>
+                <a class="intro__button" href="#track">Подробнее</a>
+                <p class="intro__systemsix">Cannondale Systemsix</p>
+                <div class="intro__background"> 
+                    <div class="intro__blok">
+                        <div class="intro__img-background blosk-bicycles">
+                            <img class="intro__bicycles" src="./images/Снимок экрана 2021-05-24 в 12.58_intro_bike.png" alt="Велосипед">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="merckx">
+                <img class="merckx__img" src="./images/Placeholder_Marsik.png" alt="Природа">
+                <blockquote class="merckx__quote">&laquo;Катайся много или мало, долго или коротко, 
+                    как хочешь&nbsp;&mdash; но&nbsp;катайся&raquo;
+                </blockquote>
+                    <div class="merckx__initials">
+                        <h2 class="merckx__name">Эдди Меркс</h2>
+                        <h3 class="merckx__cyclist">Велогонщик</h3>
+                    </div>
+            </section>
+            <section class="track" id="track">
+                <h2 class="track__title">Шоссе</h2>
+                <p class="track__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+                    <div class="track__slider">
+                        <div class="track__ikon">
+                            <div class="track__liner"></div>
+                        </div>
+                        <div class="track__ride">
+                            <img class="track__img" src="./images/Placeholder__track_1.png" alt="Трасса">
+                            <img class="track__img" src="./images/Placeholder_threck_2.png" alt="Трасса">
+                            <img class="track__img" src="./images/Placeholder_threck_3.png" alt="Трасса">
+                            <img class="track__img" src="./images/Placeholder__track_1.png" alt="Трасса">
+                        </div> 
+                    </div>
+                
+                <div class="track__arrows">
+                    <button class="track__button" id="left"></button>
+                    <button class="track__button" id="right"></button>
+                </div>
+            </section>
+            <section class="bicycles" id="bicycles">
+                <h2 class="bicycles__title">Велосипеды</h2>
+                <div class="bicycles__nav">
+                    <h3 id="track_one" class="bicycles__track choice-track">Шоссе</h3>
+                    <h3 id="track_two" class="bicycles__track">Грэвел</h3>
+                    <h3 id="track_three" class="bicycles__track">TT</h3>
+                </div>
+                <div class="bicycles__slider">
+                    <div class="bicycles__group-bicycles">
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.59bicycles_1.png" alt="Велосипед">
+                                <p class="bicycles__name">Cervelo Caledonia-5</p>
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN "></a>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_2.png" alt="Велосипед">
+                                <p class="bicycles__name">Cannondale Systemsix Himod</p>
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"></a>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_3.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"></a>
+                                <p class="bicycles__name">Trek Domane SL-7</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.59bicycles_4.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE"></a>
+                                <p class="bicycles__name">Cervelo Aspero GRX 810</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_5.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9"></a>
+                                <p class="bicycles__name">Specialized S-Works Diverge</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_6.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8"></a>
+                                <p class="bicycles__name">Cannondale Topstone Lefty 3</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.59bicycles_7.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9 "></a>
+                                <p class="bicycles__name">Specialized S-Works Shiv</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_8.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835"></a>
+                                <p class="bicycles__name">BMC Timemachine 01 ONE</p>
+                            </div>
+                        </div>
+                        <div class="bicycles__card">
+                            <div class="bicycles__img-background blosk-bicycles">
+                                <img class="bicycles__bicycle-img" src="./images/Снимок экрана 2021-05-24 в 12.58bicycles_9.png" alt="Велосипед">
+                                <a target="_blank" class="bicycles__link" href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q"></a>
+                                <p class="bicycles__name">Cervelo P-Series</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bicycles__point-block">
+                    <div class="bicycles__point"></div>
+                    <div class="bicycles__point"></div>
+                    <div class="bicycles__point"></div>
+                </div>
+            </section>
+            <section class="training" id="training">
+                <h2 class="training__title">Тренировки</h2>
+                <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+                     а&nbsp;записать эти тренировки поможет приложение Strava, 
+                    а&nbsp;также это приложение позволит построить тренировочный план.</p>
+                <div class="training__nav">
+                    <a  href="https://www.komoot.com" target="_blank" class="training__subtitle">Strava</a>
+                    <a  href="https://www.strava.com" target="_blank" class="training__subtitle">Komoot</a>
+                </div>
+                <img class="training__img" src="./images/Placeholder__training.png" alt="Дорога">
+            </section>
+        </main>
+        <footer class="footer">
+            <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+            <form class="footer__form">
+                <input class="footer__email" type="email" value="Ваш e-mail">
+                <div class="footer__ok">ok</div>
+            </form>
+            <p class="footer__copyright">© Road Club 2021</p>
+            <div class="footer__theme">
+                <div class="footer__icon footer__icon_sun"></div>
+                <div class="switch">
+                    <label class="switch__theme">
+                      <input type="checkbox" class="switch__checkbox"/>
+                      <div class="switch__slider switch__round"></div>
+                    </label>
+                </div>
+                <div class="footer__icon footer__icon_moon"></div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="./script/script.js"></script>
+</body>

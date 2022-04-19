@@ -1,0 +1,53 @@
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.switch__theme {
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  width: 44px;
+}
+
+.switch__theme input {
+  display: none;
+}
+
+.switch__slider {
+  background-color: #FFFFFF;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.switch__slider:before {
+  background-color: #24B47E;
+  bottom: 2px;
+  content: "";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  transition: 0.4s;
+  width: 20px;
+}
+
+input:checked + .switch__slider {
+  background-color: #545454;
+}
+
+input:checked + .switch__slider:before {
+  transform: translateX(20px);
+}
+
+.switch__slider.round {
+  border-radius: 34px;
+}
+
+.switch__slider.switch__round:before {
+  border-radius: 50%;
+}/*# sourceMappingURL=footer__switch.css.map */

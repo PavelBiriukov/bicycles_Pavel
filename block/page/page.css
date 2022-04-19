@@ -1,0 +1,9 @@
+.page {
+  font-family: "Inter";
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: var(--title-color);
+  background-color: var(--bg-color);
+  position: relative;
+}/*# sourceMappingURL=page.css.map */

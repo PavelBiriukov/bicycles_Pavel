@@ -1,0 +1,18 @@
+.training__subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 30px;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.5s;
+  color: var(--title-color);
+}
+
+.training__subtitle:last-of-type {
+  margin-right: 0;
+}
+
+.training__subtitle:hover {
+  opacity: 0.75;
+}/*# sourceMappingURL=training__subtitle.css.map */

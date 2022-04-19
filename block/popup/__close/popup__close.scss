@@ -1,0 +1,27 @@
+.popup__close{
+    width: 22px;
+    height: 22px;
+    margin-bottom: 100px;
+    display: block;
+    margin-top: 27px;
+    margin-right: 13px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.popup__close:hover{
+    opacity: .6;
+}
+.popup__close:before, .popup__close:after {
+    content: ""; 
+    position: absolute;
+    width: 22px; 
+    height: 3px; 
+    background: var(--title-color);
+}
+.popup__close:before {
+    transform: rotate(45deg);
+}
+.popup__close:after {
+    transform: rotate(-45deg);
+}

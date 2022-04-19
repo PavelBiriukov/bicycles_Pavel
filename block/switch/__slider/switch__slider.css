@@ -1,0 +1,21 @@
+.switch__slider {
+  background-color: #FFFFFF;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.switch__slider:before {
+  background-color: #24B47E;
+  bottom: 2px;
+  content: "";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  transition: 0.4s;
+  width: 20px;
+}/*# sourceMappingURL=switch__slider.css.map */

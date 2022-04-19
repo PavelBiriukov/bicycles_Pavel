@@ -1,0 +1,27 @@
+.track__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-color);
+    opacity: 0.7;
+    width: 100%;
+    max-width: 460px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 800px){
+    .track__text{
+       grid-row-start: 3;
+       grid-row-end: 3;
+       grid-column-start: 1;
+       grid-column-end: 3;
+       margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px){
+    .track__text{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

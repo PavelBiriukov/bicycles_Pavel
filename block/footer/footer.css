@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 120px 60px 120px;
+  box-sizing: border-box;
+  display: grid;
+  background: var(--bg-color-footer);
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 18px;
+  }
+}/*# sourceMappingURL=footer.css.map */

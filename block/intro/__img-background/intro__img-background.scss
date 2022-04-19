@@ -1,0 +1,31 @@
+.intro__img-background {
+    width: 100%;
+    height: auto;
+    max-width: 440px;
+    max-height: 300px;
+    background: #F4F4F4;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (max-width: 1350px) {
+    .intro__img-background {
+        max-width: 340px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .intro__img-background {
+        max-width: 350px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__img-background {
+        max-width: 234px;
+    }
+}
+

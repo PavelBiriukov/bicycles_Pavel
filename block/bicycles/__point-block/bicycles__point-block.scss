@@ -1,0 +1,17 @@
+.bicycles__point-block{
+    width: auto;
+    height: auto;
+    justify-self: center;
+    margin-top: -25px;
+    display: none;
+    z-index: 10;
+    background-color: var(--bg-color);
+    width: 100%;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .bicycles__point-block{
+        display: flex;
+        
+    }
+}

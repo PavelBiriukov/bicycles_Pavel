@@ -1,0 +1,26 @@
+.intro__bicycles {
+  padding: 20px 50px;
+  width: 100%;
+  height: 100%;
+  max-width: 340px;
+  max-height: 260px;
+}
+
+@media screen and (max-width: 1350px) {
+  .intro__bicycles {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .intro__bicycles {
+    max-height: 260px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro__bicycles {
+    max-height: 260px;
+    padding: 0;
+  }
+}/*# sourceMappingURL=intro__bicycles.css.map */
