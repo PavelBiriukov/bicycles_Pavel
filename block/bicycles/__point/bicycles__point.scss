@@ -1,0 +1,10 @@
+.bicycles__point{
+    width: 4px;
+    height: 4px;
+    background-color: #CACACA;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.bicycles__point:last-of-type{
+    margin-right: 0;
+}

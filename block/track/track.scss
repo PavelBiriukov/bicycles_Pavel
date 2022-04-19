@@ -1,0 +1,13 @@
+.track{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+    .track{
+        padding: 18px;
+        display: grid;
+    }
+}

@@ -1,0 +1,48 @@
+.intro__button {
+    background: #24B47E;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 160px;
+    height: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;    
+    color: #FFFFFF;
+    margin-bottom: 167px;
+    cursor: pointer;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#319E75 50%,#319E75);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.intro__button:hover {
+    background-position: 0 0;
+}
+@media screen and (max-width: 800px) {
+    .intro__button {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        max-width: 360px;
+        height: 46px;
+        justify-self: center;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__button {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        max-width: 100%;
+    }
+}

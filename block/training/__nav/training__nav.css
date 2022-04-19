@@ -1,0 +1,19 @@
+.training__nav {
+  display: flex;
+  margin-top: 184px;
+}
+
+@media screen and (max-width: 900px) {
+  .training__nav {
+    margin-top: 84px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .training__nav {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    margin: 0;
+  }
+}/*# sourceMappingURL=training__nav.css.map */

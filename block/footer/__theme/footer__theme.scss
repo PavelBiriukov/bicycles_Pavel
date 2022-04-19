@@ -1,0 +1,17 @@
+.footer__theme {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    justify-self: end;
+    align-self: end;
+}
+.switch__theme input {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .footer__theme{
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.track__slider{
+    overflow: hidden;
+    position: relative;
+}
+@media screen and (max-width: 800px){
+    .track__slider{
+       grid-row-start: 2;
+       grid-row-end: 2;
+       grid-column-start: 1;
+       grid-column-end: 3;
+       margin-left: 65px;
+       margin-bottom: 40px;
+       
+    }
+}
+@media screen and (max-width: 800px){
+    .track__slider{
+       grid-row-start: 2;
+       grid-row-end: 2;
+       grid-column-start: 1;
+       grid-column-end: 3;
+       margin-left: 65px;
+       margin-bottom: 40px;
+       
+    }
+}
+@media screen and (max-width: 600px){
+    .track__slider{
+       margin-left: 35px;
+       
+    }
+}
+@media screen and (max-width: 320px){
+    .track__slider{
+       margin-left: 0;
+       
+    }
+}

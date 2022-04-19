@@ -1,0 +1,15 @@
+.merckx__cyclist {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text-color);
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .merckx__cyclist {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}/*# sourceMappingURL=merckx__cyclist.css.map */

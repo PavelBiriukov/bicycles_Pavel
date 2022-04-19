@@ -1,0 +1,15 @@
+.track__arrows {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .track__arrows {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-bottom: 49px;
+    justify-self: end;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=track__arrows.css.map */

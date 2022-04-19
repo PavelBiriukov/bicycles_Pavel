@@ -1,0 +1,44 @@
+.track__button {
+  width: 50px;
+  height: 50px;
+  background-color: var(--button);
+  border-radius: 50%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../../images/Vector__arow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-right: 20px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.track__button_dark {
+  background-image: url(../../../images/Vector_awra_dark.svg);
+}
+
+.track__button:last-of-type {
+  transform: rotate(180deg);
+}
+
+.track__button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .track__button {
+    margin-right: 0;
+    width: 34px;
+    height: 34px;
+    background-size: 15px 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .track__button {
+    width: 24px;
+    height: 24px;
+    background-size: 10px 10px;
+  }
+}/*# sourceMappingURL=track__button.css.map */

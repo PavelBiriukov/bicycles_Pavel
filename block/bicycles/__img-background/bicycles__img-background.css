@@ -1,0 +1,14 @@
+.bicycles__img-background {
+  background: #F4F4F4;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+  width: 95%;
+  height: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .bicycles__img-background {
+    padding-bottom: 22px;
+  }
+}/*# sourceMappingURL=bicycles__img-background.css.map */

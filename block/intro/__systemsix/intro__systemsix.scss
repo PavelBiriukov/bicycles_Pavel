@@ -1,0 +1,22 @@
+.intro__systemsix {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    width: 100%;
+    margin-right: 30px;
+}
+.intro__systemsix::after{
+    content: '';
+    background: var(--line);
+    width: 100%;
+    max-width: 132px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+@media screen and (max-width: 800px) {
+    .intro__systemsix {
+        display: none;
+    }
+}

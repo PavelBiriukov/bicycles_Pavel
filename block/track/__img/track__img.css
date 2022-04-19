@@ -1,0 +1,17 @@
+.track__img {
+  max-width: 650px;
+  width: 50%;
+  height: auto;
+  margin-right: 30px;
+}
+
+.track__img:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .track__img {
+    width: 100%;
+    margin-right: 23px;
+  }
+}/*# sourceMappingURL=track__img.css.map */

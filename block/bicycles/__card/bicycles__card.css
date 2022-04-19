@@ -1,0 +1,47 @@
+.bicycles__card {
+  margin-right: 22px;
+  max-width: 380px;
+  min-width: 32.1%;
+  max-height: 422px;
+  margin-bottom: 33px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bicycles__card {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bicycles__card {
+    margin-left: 22%;
+    margin-right: 0;
+    min-width: 60%;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    margin-top: 10px;
+  }
+
+  .bicycles__card:last-child {
+    margin-right: 19%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bicycles__card {
+    margin-left: 13%;
+    min-width: 80%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bicycles__card {
+    padding-left: 20px;
+    min-width: 108%;
+    padding-right: 14px;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .bicycles__card:last-child {
+    margin-right: 0;
+    padding-right: 9px;
+  }
+}/*# sourceMappingURL=bicycles__card.css.map */

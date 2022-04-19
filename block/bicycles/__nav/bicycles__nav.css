@@ -1,0 +1,49 @@
+.bicycles__nav {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  justify-self: end;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .bicycles__nav {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: start;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bicycles__nav {
+    width: 114px;
+    height: 30px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+    transition: height 0.5s;
+  }
+
+  .bicycles__nav::after {
+    content: "";
+    height: 7px;
+    width: 12px;
+    background-image: url(../../../images/Vector_botton.svg);
+    position: absolute;
+    right: 12px;
+    top: 13px;
+  }
+}
+.bicycles__nav_click {
+  height: 95px;
+}/*# sourceMappingURL=bicycles__nav.css.map */

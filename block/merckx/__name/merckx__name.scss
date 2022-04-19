@@ -1,0 +1,22 @@
+.merckx__name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 900px){
+    .merckx__name {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 768px){
+    .merckx__name {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

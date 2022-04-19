@@ -1,0 +1,7 @@
+.track__ride {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  left: 0;
+  transition: all ease 1s;
+}/*# sourceMappingURL=track__ride.css.map */

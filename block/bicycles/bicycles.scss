@@ -1,0 +1,14 @@
+.bicycles {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+    padding: 60px 120px 60px 120px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+    .bicycles{
+        padding: 60px 18px 60px 18px;
+    }
+}
